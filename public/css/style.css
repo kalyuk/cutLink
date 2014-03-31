@@ -1,0 +1,68 @@
+html {
+	font-size: 100.01%;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	background: #e3e3e3;
+	font-size: 62.5%;
+	overflow-y: scroll;
+	font-family: Arial,Helvetica,sans-serif;
+	overflow-x: hidden;
+	height: 97%;
+}
+
+div.form-wrapper
+{
+	margin: 50px auto;
+	width: 400px;
+}
+div.form-wrapper label
+{
+	font-size: 1.4em;
+}
+div.form-wrapper textarea
+{
+	display: block;
+	margin: 4px 0;
+	width: 380px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 4px 10px;
+	height: 90px;
+}
+
+div.not-found
+{
+	color: #0A246A;
+	margin-bottom: 16px;
+}
+	div.not-found h3
+	{
+		font-size: 1.6em;
+		margin-bottom: 4px;
+	}
+	div.not-found div
+	{
+		font-size: 1.4em;
+	}
+
+div.url-wrapper
+{
+	padding: 6px 10px;
+	background: #fff;
+	font-size: 1.4em;
+	border: 1px solid green;
+	margin-bottom: 20px;
+}
+
+div.errorSummary
+{
+	font-size: 1.5em;
+	color: red;
+}
